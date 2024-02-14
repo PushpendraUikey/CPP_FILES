@@ -1,3 +1,4 @@
 *.log
 my_directory/
 !important_file.txt
+*.o
