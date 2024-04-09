@@ -7,7 +7,7 @@
 #include<cstdlib>
 #define e 2.718281828459045
 #define PI 3.14159265
-
+const int max_size=1000;
 using namespace std;
 /*
 int main(){
@@ -110,7 +110,6 @@ double p(double, double, double=0, double=0,double=0);
 bool SayleapYear(int n);
 double cos2x(double);
 double check_sin_cos(double);
-*/
 int min(int,int,int,int);
 double check_exponential(double,double);
 int min(int, int);
@@ -123,12 +122,61 @@ long long combinotorics(int,int);
 long long combinotorics_2(int,int);
 int gcd(int,int);
 int lcm(int,int);
+int isSquare(int);
+bool isPentagonal(int);
+*/
+void Power(int, int);
+void multiply(int[],int&,int);
 
 int main(){
-    cout << gcd(45, 99) << " " << gcd(63,39) << " "
-    << lcm(345,422) << ' ' << lcm(39,52) << endl;
+    int x,p; cin >> x >> p;
+    Power(x,p);
 }
 
+void multiply(int power[],int& result_size, int x){
+    int carry{0};
+    for(int j{0}; j<result_size; j++){
+        int product = power[j] * x + carry;
+        power[j] = product%10;
+        carry = product/10;
+    }
+    while(carry){
+        power[result_size] = carry%10;
+        carry /= 10;
+        result_size++;
+    }
+}
+void Power(int x, int p){
+    int power[max_size] ={0};
+    power[0]=x; int result_size=1;
+    for(int i{1}; i<p; i++){
+        multiply(power,result_size,x);
+    }
+    for(int j{result_size - 1}; j>=0; j--){
+        cout<< power[j];
+    }
+    cout << endl;
+}
+/*
+bool isPentagonal(int n){
+    int sum{0};
+    if(n==0) return true;
+    else{
+        for(int i{1}; i<=n; i+=3){
+            sum+=i;
+            if(sum == n) return true;
+            if(sum > n) break;
+        }
+        return false;
+    }
+}
+int isSquare(int n){
+    double x;
+    x = sqrt(n);
+    int m; m = int(x);
+    if(m == x) return 1;
+    else return 0;
+}
 int lcm(int m, int n){
     return (m*n)/gcd(m,n);
 }
