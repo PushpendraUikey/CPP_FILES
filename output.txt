@@ -1,24 +1,0 @@
-HELMHOLTZ COILS
-AIM:- (a) To easure he agnetic ield roduced y he Helmholtz oil.
-(b) To etermine he orque roduced y  urrent-carrying oop, uspended etween he Helmholtz oils s  unction f:
-(i) The trength f he agnetic oment(by arying urrent 'i' hrough he oop).
-(ii) The ngle (alpha) etween he agnetic ield nd he xis f he oop.
-(iii) The umber f urns(n) n he urrent oop.
-APPARATUS:- (a) Helmholtz oils, igital Gaussmeter, Hall robe.
-(b) Torsion ynamometer, ower upply ith n-built igital mmeter, onnecting ires, upporting tand, nd wo mall oils 
-aving =1 nd 3.
-THEORY:- Helmholtz oil onsists f  air f dentical oils(each 
-aving N umber f urns nd adius R) laced oaxially nd eparated y  istance R. Such  air roduces  airly niform agnetic ield B. n he egion etween he wo oils rovided he ense f urrent 'I' hrough he oils re uch hat he wo agnetic ields dd.
-|B| = 8/5sqrt(5) U.NI/R
-In he aboratory et R = 0.2 , N = 154, nd 'I' ay e aried p o 3A. U.= 4PI X 10^-7 Henry/meter. When  urrent (il) arrying onducting oop f adius  ith  urns s laced n he niform agnetic ield B etween he Helmholtz oils, t xperiences  onzero ngle 'alpha' ith B. The agnetic oment f he oop s , here
-|m| = PI ^2 _l Torque = M X B,
-Experimentally he orque xperienced y he oil ransfers o  orque n he ever rm, hich an e easured irectly rom he orce xperienced y  ynamometer. |T| = |F|L
-here F s he orce easured (in N) y he orce ndication 
-nob f he ynamometer nd L s he 
-alf ength f he ever rm(L = 12 m). The ngle etween F nd L s 90 egrees.
-PRECAUTION:- 1) While onnecting nd hanging he ircuit, he ower upply ust e witched ff. If t ny ime, he ed ight n he ower upply 	lows( ndicating verload ), mmediately witch ff he ower upply nd heck or ny ossibility f  hort ircuit.
-2) Make ure hat other agnetic aterial s laced n he icinity f he oils. While easuring he agnetic ield.
-3) Align he ever rms ery arefully t s ery elicate nd hould e 
-andled ith xtreme are.
-4) Rotate he orce ndication 
-nob ery arefully, hile easuring he eflection n orsion ynamometer. 
